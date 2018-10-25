@@ -20,6 +20,7 @@ body{
     margin-left:auto;
     margin-right:auto;
     top:500px;
+    background-color:white;
     position:relative;
     animation-name:spin;
     animation-duration: 2000ms;
@@ -46,5 +47,44 @@ body{
         transform:rotate(0deg)
     }to {
         transform:rotate(360deg)
+    }
+}
+#h2Tag{
+    border: 1px solid black;
+    width: 180px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+    position:relative;
+    top:430px;    
+    height:40px;
+    font-size:30px;
+    padding:2px 0 0 0;
+    animation-name:spin4;
+    animation-duration: 2000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@keyframes spin4{
+    from{
+        transform:rotate(180deg)
+    }to {
+        transform:rotate(540deg)
+    }
+}
+#h2Tag:hover{
+    color:white;
+    background-color: black;
+    animation-name:spin5;
+    animation-duration: 2000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@keyframes spin5{
+    from{
+        transform:rotate(540deg)
+    }to {
+        transform:rotate(180deg)
     }
 }
