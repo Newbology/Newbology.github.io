@@ -1,0 +1,50 @@
+body{
+    background-color: cornflowerblue;
+    animation-name:spin3;
+    animation-duration: 2000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+/* @keyframes spin3{
+    from{
+        transform:rotate(360deg)
+    }to {
+        transform:rotate(00deg)
+    }
+} */
+
+#h1Tag{
+    border: 1px solid black;
+    width: 180px;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    top:500px;
+    position:relative;
+    animation-name:spin;
+    animation-duration: 2000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@keyframes spin{
+    from{
+        transform:rotate(360deg)
+    }to {
+        transform:rotate(00deg)
+    }
+}
+#h1Tag:hover{
+    color:white;
+    background-color: black;
+    animation-name:spin2;
+    animation-duration: 2000ms;
+    animation-iteration-count:infinite;
+    animation-timing-function:linear;
+}
+@keyframes spin2{
+    from{
+        transform:rotate(0deg)
+    }to {
+        transform:rotate(360deg)
+    }
+}
