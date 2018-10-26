@@ -88,3 +88,26 @@ body{
         transform:rotate(180deg)
     }
 }
+
+#blaze{
+    color:green;
+    background-color:yellow;
+    width: 300px;
+    border-radius:10px 10px 10px 10px;
+    padding: 1px 1px 1px 1px;
+    border:2px solid red;
+    font-size: 50px;
+    font-family: sans-serif;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative;
+    bottom:150px;
+    box-shadow: -5px 5px green;
+}
+#blaze:hover{
+    background-color:green;
+    color:red;
+    border: 2px solid yellow;
+    box-shadow:-5px 5px yellow;
+}
